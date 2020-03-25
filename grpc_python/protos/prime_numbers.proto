@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+service PrimeNumbersStreamer {
+  rpc get_primes(Number) returns (stream Number) {}
+}
+
+message Number {
+  int32 value = 1;
+}
