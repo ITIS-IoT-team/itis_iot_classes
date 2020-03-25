@@ -1,0 +1,24 @@
+## Java
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files
+*.jar
+*.war
+
+target/
+
+## Python
+
+venv/
+__pycache__/
+
+## Common
+
+.idea/
+
+*.iml
