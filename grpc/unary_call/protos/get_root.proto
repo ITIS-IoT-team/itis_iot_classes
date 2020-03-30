@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+service RootCalculator {
+    rpc calculate_root(Number) returns (Number) {}
+}
+
+message Number {
+    double value = 1;
+}
