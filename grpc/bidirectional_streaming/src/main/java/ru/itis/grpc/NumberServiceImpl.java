@@ -1,6 +1,8 @@
 package ru.itis.grpc;
 
 import io.grpc.stub.StreamObserver;
+import ru.itis.grpc.generated.Number;
+import ru.itis.grpc.generated.NumberServiceGrpc;
 
 public class NumberServiceImpl extends NumberServiceGrpc.NumberServiceImplBase {
 

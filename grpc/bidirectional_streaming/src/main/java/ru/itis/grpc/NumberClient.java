@@ -3,6 +3,8 @@ package ru.itis.grpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;
+import ru.itis.grpc.generated.Number;
+import ru.itis.grpc.generated.NumberServiceGrpc;
 
 import java.util.Arrays;
 import java.util.concurrent.CountDownLatch;
