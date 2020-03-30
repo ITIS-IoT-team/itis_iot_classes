@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "ru.itis.grpc";
+option java_multiple_files = true;
+
+message Number {
+    double value = 1;
+};
+
+service NumberService {
+    rpc Max(stream Number) returns (stream Number) {};
+};
+
